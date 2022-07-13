@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <title>CSE Poultry Farm</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    </head>
+    <style>
+      section{
+        padding: 60px 0;
+      }
+    </style>  
+  </head>
   <body>
 
     <!-- navigation bar -->
@@ -45,6 +50,7 @@
       </div>
     </nav> 
 
+  <!-- Carousel slider -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,10 +90,126 @@
       </button>
     </div>
 
-    <div class="container my-5">
+    <!-- Intro section -->
+    <section id="intro">
+      <div class="container-lg">
+        <div class="row justify-content-center align-items=center">
+          <div class="col-md-5 text-center">
+            <img class="img-fluid" src="../pics/chick-cycle.jpg" alt="chicken cycle">
+          </div>
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display-2">Chicken Poultry</div>
+              <div class="display-5 text-muted">Best in the country</div>
+            </h1>
+            <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, expedita!</p>
+            <a href="#products" class="btn btn-danger btn-lg">READ MORE</a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pricing -->
+    <section class="bg-light mt-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Pricing plan</h2>
+          <p class="lead text-muted">Choose monthly pricing plan</p>
+        </div>
 
+        <!--Pricing Options  -->
+        <div class="row my-5 align-items-center justify-content-center g-0">
 
-    </div>
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">x24 eggs only</p>
+                <p class="display-5 my-4 text-danger fw-bold">R99.99</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-9 col-lg-4">
+            <div class="card border-danger border-2">
+              <div class="card-header text-center text-danger">Most Popular</div>
+              <div class="card-body text-center py-5">
+                <h4 class="card-title">Complete Edition</h4>
+                <p class="lead card-subtitle">x24 eggs only + braai pack</p>
+                <p class="display-4 my-4 text-danger fw-bold">R249.99</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">x24 eggs only</p>
+                <p class="display-5 my-4 text-danger fw-bold">R99.99</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Customer Reviews</h2>
+          <p class="lead">What our customers say about us...</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="list-group">
+              <div class="list-group-item py-3">
+                <h5 class="mb-1">A must buy for a family person</h5>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas 
+                  corporis tempore, voluptate nobis maiores illo quod numquam, dolorum culpa voluptatum 
+                  assumenda delectus.</p>
+                <small>Review by Marikos</small>
+
+              </div>
+              <div class="list-group-item py-3">
+                <h5 class="mb-1">A must buy for a family person</h5>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas 
+                  corporis tempore, voluptate nobis maiores illo quod numquam, dolorum culpa voluptatum 
+                  assumenda delectus.</p>
+                <small>Review by Marikos</small>
+
+              </div>
+              <div class="list-group-item py-3">
+                <h5 class="mb-1">A must buy for a family person</h5>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas 
+                  corporis tempore, voluptate nobis maiores illo quod numquam, dolorum culpa voluptatum 
+                  assumenda delectus.</p>
+                <small>Review by Marikos</small>
+
+              </div>
+              <div class="list-group-item py-3">
+                <h5 class="mb-1">A must buy for a family person</h5>
+                <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas 
+                  corporis tempore, voluptate nobis maiores illo quod numquam, dolorum culpa voluptatum 
+                  assumenda delectus.</p>
+                <small>Review by Marikos</small>
+
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
